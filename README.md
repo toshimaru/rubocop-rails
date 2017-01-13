@@ -1,5 +1,7 @@
 # RuboCop Rails
 
+[![Build Status](https://travis-ci.org/toshimaru/rubocop-rails.svg?branch=master)](https://travis-ci.org/toshimaru/rubocop-rails)
+
 RuboCop configuration which is the same as Ruby on Rails.
 
 ## Installation
