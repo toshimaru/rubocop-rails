@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "rubocop", "~> 0.46"
 
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "rake"
 end
