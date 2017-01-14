@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name                  = "rubocop-rails"
-  spec.version               = "0.0.1"
+  spec.version               = "0.1.0"
   spec.summary               = "RuboCop for Rails"
   spec.description           = "Code style checking for Ruby on Rails project"
   spec.authors               = "Toshimaru"

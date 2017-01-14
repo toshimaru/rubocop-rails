@@ -1,6 +1,7 @@
 # RuboCop Rails
 
 [![Build Status](https://travis-ci.org/toshimaru/rubocop-rails.svg?branch=master)](https://travis-ci.org/toshimaru/rubocop-rails)
+[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)
 
 RuboCop configuration which is the same as Ruby on Rails.
 
