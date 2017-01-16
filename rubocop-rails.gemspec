@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.license               = "MIT"
   spec.required_ruby_version = ">= 2.2.2"
 
-  spec.add_dependency "rubocop", "~> 0.46"
+  spec.add_dependency "rubocop", "~> 0.47"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "minitest"
