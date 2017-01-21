@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name                  = "rubocop-rails"
   spec.version               = "0.2.0"
-  spec.summary               = "RuboCop for Rails"
-  spec.description           = "Code style checking for Ruby on Rails project"
+  spec.summary               = "RuboCop configuration which has the same code style checking as official Ruby on Rails"
+  spec.description           = "RuboCop configuration which has the same code style checking as official Ruby on Rails"
   spec.authors               = "Toshimaru"
   spec.email                 = "me@toshimaru.net"
   spec.files                 = Dir["README.md", "LICENSE", "config/*.yml"]
