@@ -23,6 +23,23 @@ inherit_gem:
     - config/rails.yml
 ```
 
+## Customization
+
+If you'd like to customize the rubocop setting, you can override it.
+
+For example, if you want to change `TargetRubyVersion`, you can do it like:
+
+```yml
+inherit_gem:
+  rubocop-rails:
+    - config/rails.yml
+
+AllCops:
+  TargetRubyVersion: 2.3
+```
+
+This overrides `config/rails.yml` setting with `TargetRubyVersion: 2.3`.
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
