@@ -30,10 +30,6 @@ Layout/CommentIndentation:
 Layout/EmptyLineAfterMagicComment:
   Enabled: true
 
-# No extra empty lines.
-Layout/EmptyLines:
-  Enabled: true
-
 # In a regular class definition, no empty lines around the body.
 Layout/EmptyLinesAroundClassBody:
   Enabled: true
@@ -44,6 +40,9 @@ Layout/EmptyLinesAroundMethodBody:
 
 # In a regular module definition, no empty lines around the body.
 Layout/EmptyLinesAroundModuleBody:
+  Enabled: true
+
+Layout/FirstParameterIndentation:
   Enabled: true
 
 # Use Ruby >= 1.9 syntax for hashes. Prefer { a: :b } over { :a => :b }.
@@ -87,7 +86,18 @@ Style/FrozenStringLiteralComment:
   EnforcedStyle: always
   Include:
     - 'activesupport/**/*'
+    - 'activemodel/**/*'
+    - 'actioncable/**/*'
     - 'activejob/**/*'
+    - 'activerecord/**/*'
+    - 'actionmailer/**/*'
+    - 'actionview/**/*'
+    - 'actionpack/**/*'
+  Exclude:
+    - 'actionview/test/**/*.builder'
+    - 'actionview/test/**/*.ruby'
+    - 'actionpack/test/**/*.builder'
+    - 'actionpack/test/**/*.ruby'
 
 # Use `foo {}` not `foo{}`.
 Layout/SpaceBeforeBlockBraces:
