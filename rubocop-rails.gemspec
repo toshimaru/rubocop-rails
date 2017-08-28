@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Gem::Specification.new do |spec|
   spec.name                  = "rubocop-rails"
   spec.version               = "1.0.3"
