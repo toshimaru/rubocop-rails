@@ -17,7 +17,7 @@ gem "rubocop-rails"
 
 ## Usage
 
-Add this line to your application's `.rubocop.yml`:
+Add this line to your application's `.rubocop.yml`, or just run `rails generate rubocop_rails:install`:
 
 ```yml
 inherit_gem:
