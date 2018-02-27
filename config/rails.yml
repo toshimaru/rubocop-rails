@@ -160,3 +160,7 @@ Style/RedundantReturn:
 Style/Semicolon:
   Enabled: true
   AllowAsExpressionSeparator: true
+
+# Prefer Foo.method over Foo::method
+Style/ColonMethodCall:
+  Enabled: true
