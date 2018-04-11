@@ -1,3 +1,5 @@
+require: custom_cops
+
 AllCops:
   TargetRubyVersion: 2.2
   # RuboCop has a bunch of cops enabled by default. This setting tells RuboCop
@@ -9,6 +11,11 @@ AllCops:
     - '**/vendor/**/.*'
     - '**/node_modules/**/*'
     - 'actionpack/lib/action_dispatch/journey/parser.rb'
+
+# Prefer assert_not_x over refute_x
+CustomCops/RefuteNot:
+  Include:
+    - '**/*_test.rb'
 
 # Prefer &&/|| over and/or.
 Style/AndOr:
