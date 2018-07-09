@@ -2,9 +2,6 @@
 
 RuboCop configuration which has the same code style checking as official Ruby on Rails.
 
-[Official RoR Rubocop Configuration](https://github.com/rails/rails/blob/master/.rubocop.yml)
-
-
 ## :warning: rubocop-rails is renamed to [rubocop-rails_config](https://github.com/toshimaru/rubocop-rails_config) :warning:
 
 `rubocop-rails` is renamed to `rubocop-rails_config`. To migrate to new gem, install rubocop-rails_config instead of rubocop-rails. See detail [here](https://github.com/toshimaru/rubocop-rails/issues/31)
@@ -21,9 +18,11 @@ $ bundle exec rails generate rubocop_rails_config:update
 
 ### Sample Pull Request
 
-In this PR, rubocop-rails gem is changed to rubocop-rails_config gem.
+In this PR, `rubocop-rails` gem is changed to `rubocop-rails_config` gem.
 
 https://github.com/toshimaru/RailsTwitterClone/pull/191
+
+---
 
 ## Installation
 
